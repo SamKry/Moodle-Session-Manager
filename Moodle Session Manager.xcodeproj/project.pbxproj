@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44E1D9C02CA9E43A005592B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E1D9BF2CA9E43A005592B8 /* AppDelegate.swift */; };
+		44E1D9C42CA9E43A005592B8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 44E1D9C32CA9E43A005592B8 /* Base */; };
+		44E1D9C62CA9E43A005592B8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 44E1D9C52CA9E43A005592B8 /* Icon.png */; };
+		44E1D9C82CA9E43A005592B8 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 44E1D9C72CA9E43A005592B8 /* Style.css */; };
+		44E1D9CA2CA9E43A005592B8 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 44E1D9C92CA9E43A005592B8 /* Script.js */; };
+		44E1D9CC2CA9E43A005592B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E1D9CB2CA9E43A005592B8 /* ViewController.swift */; };
+		44E1D9CF2CA9E43A005592B8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 44E1D9CE2CA9E43A005592B8 /* Base */; };
+		44E1D9D12CA9E43C005592B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E1D9D02CA9E43C005592B8 /* Assets.xcassets */; };
+		44E1D9D92CA9E43C005592B8 /* Moodle Session Manager Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 44E1D9D82CA9E43C005592B8 /* Moodle Session Manager Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		44E1D9DE2CA9E43C005592B8 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E1D9DD2CA9E43C005592B8 /* SafariWebExtensionHandler.swift */; };
+		44E1D9E12CA9E43C005592B8 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 44E1D9E02CA9E43C005592B8 /* _locales */; };
+		44E1D9E32CA9E43C005592B8 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 44E1D9E22CA9E43C005592B8 /* images */; };
+		44E1D9E52CA9E43C005592B8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 44E1D9E42CA9E43C005592B8 /* manifest.json */; };
+		44E1D9E72CA9E43C005592B8 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 44E1D9E62CA9E43C005592B8 /* background.js */; };
+		44E1D9E92CA9E43C005592B8 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 44E1D9E82CA9E43C005592B8 /* content.js */; };
+		44E1D9EB2CA9E43C005592B8 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 44E1D9EA2CA9E43C005592B8 /* popup.html */; };
+		44E1D9ED2CA9E43C005592B8 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 44E1D9EC2CA9E43C005592B8 /* popup.css */; };
+		44E1D9EF2CA9E43C005592B8 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 44E1D9EE2CA9E43C005592B8 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44E1D9DA2CA9E43C005592B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44E1D9B42CA9E43A005592B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44E1D9D72CA9E43C005592B8;
+			remoteInfo = "Moodle Session Manager Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		44E1D9F72CA9E43C005592B8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				44E1D9D92CA9E43C005592B8 /* Moodle Session Manager Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		44E1D9BC2CA9E43A005592B8 /* Moodle Session Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moodle Session Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E1D9BF2CA9E43A005592B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44E1D9C32CA9E43A005592B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		44E1D9C52CA9E43A005592B8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		44E1D9C72CA9E43A005592B8 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		44E1D9C92CA9E43A005592B8 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		44E1D9CB2CA9E43A005592B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44E1D9CE2CA9E43A005592B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44E1D9D02CA9E43C005592B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44E1D9D22CA9E43C005592B8 /* Moodle_Session_Manager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Moodle_Session_Manager.entitlements; sourceTree = "<group>"; };
+		44E1D9D32CA9E43C005592B8 /* Moodle Session Manager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Moodle Session Manager.entitlements"; sourceTree = "<group>"; };
+		44E1D9D82CA9E43C005592B8 /* Moodle Session Manager Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Moodle Session Manager Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E1D9DD2CA9E43C005592B8 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		44E1D9E02CA9E43C005592B8 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		44E1D9E22CA9E43C005592B8 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		44E1D9E42CA9E43C005592B8 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		44E1D9E62CA9E43C005592B8 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		44E1D9E82CA9E43C005592B8 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		44E1D9EA2CA9E43C005592B8 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		44E1D9EC2CA9E43C005592B8 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		44E1D9EE2CA9E43C005592B8 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		44E1D9F02CA9E43C005592B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44E1D9F12CA9E43C005592B8 /* Moodle_Session_Manager_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Moodle_Session_Manager_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44E1D9B92CA9E43A005592B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E1D9D52CA9E43C005592B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44E1D9B32CA9E43A005592B8 = {
+			isa = PBXGroup;
+			children = (
+				44E1D9BE2CA9E43A005592B8 /* Moodle Session Manager */,
+				44E1D9DC2CA9E43C005592B8 /* Moodle Session Manager Extension */,
+				44E1D9BD2CA9E43A005592B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44E1D9BD2CA9E43A005592B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44E1D9BC2CA9E43A005592B8 /* Moodle Session Manager.app */,
+				44E1D9D82CA9E43C005592B8 /* Moodle Session Manager Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44E1D9BE2CA9E43A005592B8 /* Moodle Session Manager */ = {
+			isa = PBXGroup;
+			children = (
+				44E1D9BF2CA9E43A005592B8 /* AppDelegate.swift */,
+				44E1D9CB2CA9E43A005592B8 /* ViewController.swift */,
+				44E1D9CD2CA9E43A005592B8 /* Main.storyboard */,
+				44E1D9D02CA9E43C005592B8 /* Assets.xcassets */,
+				44E1D9D22CA9E43C005592B8 /* Moodle_Session_Manager.entitlements */,
+				44E1D9D32CA9E43C005592B8 /* Moodle Session Manager.entitlements */,
+				44E1D9C12CA9E43A005592B8 /* Resources */,
+			);
+			path = "Moodle Session Manager";
+			sourceTree = "<group>";
+		};
+		44E1D9C12CA9E43A005592B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				44E1D9C22CA9E43A005592B8 /* Main.html */,
+				44E1D9C52CA9E43A005592B8 /* Icon.png */,
+				44E1D9C72CA9E43A005592B8 /* Style.css */,
+				44E1D9C92CA9E43A005592B8 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		44E1D9DC2CA9E43C005592B8 /* Moodle Session Manager Extension */ = {
+			isa = PBXGroup;
+			children = (
+				44E1D9DD2CA9E43C005592B8 /* SafariWebExtensionHandler.swift */,
+				44E1D9F02CA9E43C005592B8 /* Info.plist */,
+				44E1D9F12CA9E43C005592B8 /* Moodle_Session_Manager_Extension.entitlements */,
+				44E1D9DF2CA9E43C005592B8 /* Resources */,
+			);
+			path = "Moodle Session Manager Extension";
+			sourceTree = "<group>";
+		};
+		44E1D9DF2CA9E43C005592B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				44E1D9E02CA9E43C005592B8 /* _locales */,
+				44E1D9E22CA9E43C005592B8 /* images */,
+				44E1D9E42CA9E43C005592B8 /* manifest.json */,
+				44E1D9E62CA9E43C005592B8 /* background.js */,
+				44E1D9E82CA9E43C005592B8 /* content.js */,
+				44E1D9EA2CA9E43C005592B8 /* popup.html */,
+				44E1D9EC2CA9E43C005592B8 /* popup.css */,
+				44E1D9EE2CA9E43C005592B8 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44E1D9BB2CA9E43A005592B8 /* Moodle Session Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44E1D9F82CA9E43C005592B8 /* Build configuration list for PBXNativeTarget "Moodle Session Manager" */;
+			buildPhases = (
+				44E1D9B82CA9E43A005592B8 /* Sources */,
+				44E1D9B92CA9E43A005592B8 /* Frameworks */,
+				44E1D9BA2CA9E43A005592B8 /* Resources */,
+				44E1D9F72CA9E43C005592B8 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44E1D9DB2CA9E43C005592B8 /* PBXTargetDependency */,
+			);
+			name = "Moodle Session Manager";
+			productName = "Moodle Session Manager";
+			productReference = 44E1D9BC2CA9E43A005592B8 /* Moodle Session Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44E1D9D72CA9E43C005592B8 /* Moodle Session Manager Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44E1D9F42CA9E43C005592B8 /* Build configuration list for PBXNativeTarget "Moodle Session Manager Extension" */;
+			buildPhases = (
+				44E1D9D42CA9E43C005592B8 /* Sources */,
+				44E1D9D52CA9E43C005592B8 /* Frameworks */,
+				44E1D9D62CA9E43C005592B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Moodle Session Manager Extension";
+			productName = "Moodle Session Manager Extension";
+			productReference = 44E1D9D82CA9E43C005592B8 /* Moodle Session Manager Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44E1D9B42CA9E43A005592B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					44E1D9BB2CA9E43A005592B8 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					44E1D9D72CA9E43C005592B8 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 44E1D9B72CA9E43A005592B8 /* Build configuration list for PBXProject "Moodle Session Manager" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44E1D9B32CA9E43A005592B8;
+			productRefGroup = 44E1D9BD2CA9E43A005592B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44E1D9BB2CA9E43A005592B8 /* Moodle Session Manager */,
+				44E1D9D72CA9E43C005592B8 /* Moodle Session Manager Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44E1D9BA2CA9E43A005592B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E1D9C62CA9E43A005592B8 /* Icon.png in Resources */,
+				44E1D9CA2CA9E43A005592B8 /* Script.js in Resources */,
+				44E1D9C42CA9E43A005592B8 /* Base in Resources */,
+				44E1D9C82CA9E43A005592B8 /* Style.css in Resources */,
+				44E1D9D12CA9E43C005592B8 /* Assets.xcassets in Resources */,
+				44E1D9CF2CA9E43A005592B8 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E1D9D62CA9E43C005592B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E1D9E72CA9E43C005592B8 /* background.js in Resources */,
+				44E1D9ED2CA9E43C005592B8 /* popup.css in Resources */,
+				44E1D9EB2CA9E43C005592B8 /* popup.html in Resources */,
+				44E1D9E32CA9E43C005592B8 /* images in Resources */,
+				44E1D9E52CA9E43C005592B8 /* manifest.json in Resources */,
+				44E1D9E12CA9E43C005592B8 /* _locales in Resources */,
+				44E1D9E92CA9E43C005592B8 /* content.js in Resources */,
+				44E1D9EF2CA9E43C005592B8 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44E1D9B82CA9E43A005592B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E1D9CC2CA9E43A005592B8 /* ViewController.swift in Sources */,
+				44E1D9C02CA9E43A005592B8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E1D9D42CA9E43C005592B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E1D9DE2CA9E43C005592B8 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44E1D9DB2CA9E43C005592B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44E1D9D72CA9E43C005592B8 /* Moodle Session Manager Extension */;
+			targetProxy = 44E1D9DA2CA9E43C005592B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44E1D9C22CA9E43A005592B8 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44E1D9C32CA9E43A005592B8 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		44E1D9CD2CA9E43A005592B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44E1D9CE2CA9E43A005592B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44E1D9F22CA9E43C005592B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44E1D9F32CA9E43C005592B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		44E1D9F52CA9E43C005592B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Moodle Session Manager Extension/Moodle_Session_Manager_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WY6T4Q2269;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Moodle Session Manager Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Moodle Session Manager Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samkry.Moodle-Session-Manager.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		44E1D9F62CA9E43C005592B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Moodle Session Manager Extension/Moodle_Session_Manager_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WY6T4Q2269;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Moodle Session Manager Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Moodle Session Manager Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samkry.Moodle-Session-Manager.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		44E1D9F92CA9E43C005592B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Moodle Session Manager/Moodle Session Manager.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WY6T4Q2269;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Moodle Session Manager";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samkry.Moodle-Session-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		44E1D9FA2CA9E43C005592B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Moodle Session Manager/Moodle Session Manager.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WY6T4Q2269;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Moodle Session Manager";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samkry.Moodle-Session-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44E1D9B72CA9E43A005592B8 /* Build configuration list for PBXProject "Moodle Session Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E1D9F22CA9E43C005592B8 /* Debug */,
+				44E1D9F32CA9E43C005592B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44E1D9F42CA9E43C005592B8 /* Build configuration list for PBXNativeTarget "Moodle Session Manager Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E1D9F52CA9E43C005592B8 /* Debug */,
+				44E1D9F62CA9E43C005592B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44E1D9F82CA9E43C005592B8 /* Build configuration list for PBXNativeTarget "Moodle Session Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E1D9F92CA9E43C005592B8 /* Debug */,
+				44E1D9FA2CA9E43C005592B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44E1D9B42CA9E43A005592B8 /* Project object */;
+}
