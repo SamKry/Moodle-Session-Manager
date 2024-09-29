@@ -15,16 +15,18 @@
     },
 
     "background": {
-        "service_worker": "background.js"
+        "service_worker": "background.js",
+        "persistent": false
     },
 
     "content_scripts": [{
         "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
+        "matches": [ "*://moodle.zhaw.ch/*" ]
     }],
 
     "action": {
         "default_popup": "popup.html",
+        "default_title": "Moodle Session Saver",
         "default_icon": {
             "16": "images/toolbar-icon-16.png",
             "19": "images/toolbar-icon-19.png",
@@ -35,5 +37,9 @@
         }
     },
 
-    "permissions": [ ]
+    "permissions": [
+        "cookies",
+        "storage",
+        "activeTab",
+    "https://moodle.zhaw.ch/*"]
 }
