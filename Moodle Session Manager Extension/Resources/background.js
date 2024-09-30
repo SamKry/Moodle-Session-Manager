@@ -2,7 +2,6 @@
 function getCurrentDomain(callback) {
     chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
         const url = new URL(tabs[0].url);
-        console.log("URL: ", url);
         callback(url.hostname);
     });
 }
@@ -31,7 +30,6 @@ function saveMoodleSessionCookie() {
                 console.log("No MoodleSession cookie found.");
             }
         });
-        console.log("finished attempt.");
     });
 }
 
