@@ -2,7 +2,9 @@
 function getCurrentDomain(callback) {
     chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
         const url = new URL(tabs[0].url);
-        callback(url.hostname);
+        const fullUrl = `${url.protocol}//${url.hostname}`;
+        console.log("Current domain with protocol:", fullUrl);
+        callback(fullUrl);
     });
 }
 
@@ -18,10 +20,9 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 function saveMoodleSessionCookie() {
     getCurrentDomain((moodleDomain) => {
         console.log("Attempting to save MoodleSession cookie...");
-        chrome.cookies.get({ url: `https://${moodleDomain}`, name: "MoodleSession" }, (cookie) => {
+        chrome.cookies.get({ url: moodleDomain, name: "MoodleSession" }, (cookie) => {
             if (cookie) {
                 console.log("Cookie found:", cookie);
-                
                 // Use chrome.storage.local to save the cookie
                 chrome.storage.local.set({ MoodleSession: JSON.stringify(cookie) }, () => {
                     console.log("Moodle session cookie saved.");
