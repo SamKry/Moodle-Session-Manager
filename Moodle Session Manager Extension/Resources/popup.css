@@ -3,13 +3,39 @@
 }
 
 body {
-    width: 100px;
-    padding: 10px;
-
-    font-family: system-ui;
+    width: 200px;
+    padding: 15px;
+    font-family: system-ui, sans-serif;
     text-align: center;
 }
 
-@media (prefers-color-scheme: dark) {
-    /* Dark Mode styles go here. */
+.title {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.outline-button {
+    display: block;
+    width: 180px;
+    padding: 8px;
+    margin: 8px auto;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background: white;
+    cursor: pointer;
+}
+
+.outline-button:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    gap: 6px;
+    margin-top: 20px;
 }

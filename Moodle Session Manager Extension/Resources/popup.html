@@ -1,29 +1,21 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Moodle Cookie Manager</title>
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-            }
-            button {
-                display: block;
-                margin: 10px;
-                padding: 10px;
-                width: 150px;
-            }
-        </style>
-    </head>
-    <body>
-        <h3>Moodle Cookie Manager</h3>
-        <button id="restore">Restore Session</button>
-        <button id="save">Save Session</button>
-        <br><br>
-        <label>
-            <input type="checkbox" id="autoSaveCheckbox">
-                Enable Auto Save/Restore
-        </label>
-        
-        <script src="popup.js"></script>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moodle Session Manager</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <h3 class="title"> Moodle Session Manager</h3>
+    <button id="restore" class="outline-button">Restore Session</button>
+    <button id="save" class="outline-button">Save Session</button>
+    
+    <label class="checkbox-container">
+        <input type="checkbox" id="autoSaveCheckbox">
+        Enable auto mode
+    </label>
+    
+    <script src="popup.js"></script>
+</body>
 </html>

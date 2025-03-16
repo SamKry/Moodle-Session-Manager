@@ -20,3 +20,9 @@ function openPreferences() {
 }
 
 document.querySelector("button.open-preferences").addEventListener("click", openPreferences);
+document.querySelector("button.open-url").addEventListener("click", openSupportPage);
+
+function openSupportPage() {
+    webkit.messageHandlers.controller.postMessage("open-url");
+}
+

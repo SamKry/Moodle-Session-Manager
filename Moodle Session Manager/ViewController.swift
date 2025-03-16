@@ -10,6 +10,7 @@ import SafariServices
 import WebKit
 
 let extensionBundleIdentifier = "com.samkry.Moodle-Session-Manager-Safari.Extension"
+let supportURL = URL(string: "https://github.com/SamKry/Moodle-Session-Manager")!
 
 class ViewController: NSViewController, WKNavigationDelegate, WKScriptMessageHandler {
     
@@ -44,15 +45,16 @@ class ViewController: NSViewController, WKNavigationDelegate, WKScriptMessageHan
     }
 
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
-        if (message.body as! String != "open-preferences") {
-            return;
-        }
-
-        SFSafariApplication.showPreferencesForExtension(withIdentifier: extensionBundleIdentifier) { error in
-            DispatchQueue.main.async {
-                NSApplication.shared.terminate(nil)
+        if message.body as! String == "open-preferences" {
+            SFSafariApplication.showPreferencesForExtension(withIdentifier: extensionBundleIdentifier) { error in
+                DispatchQueue.main.async {
+                    NSApplication.shared.terminate(nil)
+                }
             }
+        } else if message.body as! String == "open-url" {
+            NSWorkspace.shared.open(supportURL)
         }
     }
+
 
 }
