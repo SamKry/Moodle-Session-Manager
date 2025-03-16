@@ -9,10 +9,10 @@ import Cocoa
 import SafariServices
 import WebKit
 
-let extensionBundleIdentifier = "com.samkry.Moodle-Session-Manager.Extension"
+let extensionBundleIdentifier = "com.samkry.Moodle-Session-Manager-Safari.Extension"
 
 class ViewController: NSViewController, WKNavigationDelegate, WKScriptMessageHandler {
-
+    
     @IBOutlet weak var webView: WKWebView!
     
     
@@ -54,15 +54,5 @@ class ViewController: NSViewController, WKNavigationDelegate, WKScriptMessageHan
             }
         }
     }
-
-    @IBAction func openSafariExtensions(_ sender: Any) {
-
-        SFSafariApplication.showPreferencesForExtension(withIdentifier: extensionBundleIdentifier) { error in
-            DispatchQueue.main.async {
-                NSApplication.shared.terminate(nil)
-            }
-        }
-    }
-
 
 }
