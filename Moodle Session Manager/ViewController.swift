@@ -13,8 +13,9 @@ let extensionBundleIdentifier = "com.samkry.Moodle-Session-Manager.Extension"
 
 class ViewController: NSViewController, WKNavigationDelegate, WKScriptMessageHandler {
 
-    @IBOutlet var webView: WKWebView!
-
+    @IBOutlet weak var webView: WKWebView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -53,5 +54,15 @@ class ViewController: NSViewController, WKNavigationDelegate, WKScriptMessageHan
             }
         }
     }
+
+    @IBAction func openSafariExtensions(_ sender: Any) {
+
+        SFSafariApplication.showPreferencesForExtension(withIdentifier: extensionBundleIdentifier) { error in
+            DispatchQueue.main.async {
+                NSApplication.shared.terminate(nil)
+            }
+        }
+    }
+
 
 }
