@@ -6,12 +6,14 @@ This tool lets you save the **MoodleSession** cookie and restore it if you open 
 
 ## TODO's
 
-- [ ] Create Logo for Extension
-- [ ] Make buttons colorful (+ icons?)
+- [x] Create Logo for Extension
+- [x] Make buttons colorful (+ icons?)
 - [ ] Show Sucess messag in buttons (like checkmark on save/restore)
 - [ ] Test on other moodels (ETH, etc.)
-- [ ] Publish on AppStore
+- [ ] Fix buttons in darkmode
+- [x] Publish on AppStore
 
-## Open for discussion
 
-Is there a way to automate the save action so that you dont have to do it manualy?
+## Installation
+
+[App Store](https://apps.apple.com/ch/app/moodle-session-manager/id6736646327?mt=12)
