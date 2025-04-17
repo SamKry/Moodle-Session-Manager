@@ -1,6 +1,7 @@
-# AppStore Connect -  iOS-App 1.0.1
+# AppStore Connect - MacOS Safari Extension 1.1 Build 2
 
 ## Versionsinformationen
+
 Die Produktseite für diese App-Version wird im App Store mit den unten aufgeführten Inhalten und Metadaten veröffentlicht.
 
 ### Werbetexte (170 Zeichen)
@@ -13,15 +14,13 @@ Automatically save and restore your Moodle session. No more login hassles—stay
 **De:**
 Speichere und stelle deine Moodle-Sitzung automatisch wieder her. Kein ständiges Einloggen mehr – bleib eingeloggt und spare Zeit!
 
-
-
 ### Beschreibung (4000 Zeichen)
 
->	Eine Beschreibung Ihrer App mit ausführlichen Informationen zu Features und Funktionen.
+> Eine Beschreibung Ihrer App mit ausführlichen Informationen zu Features und Funktionen.
 
 **En:**
 
-Moodle Session Manager is an extension for your browser that automatically saves and restores your Moodle session, making re-login effortless.
+Moodle Session Manager is a Safari extension that automatically saves and restores your Moodle session, making re-login effortless.
 
 - Save time – No more repetitive logins.
 - Auto-save & auto-restore – Automatically manage your Moodle session.
@@ -32,7 +31,7 @@ Stay logged in and focus on what matters—your studies!
 
 **De:**
 
-Moodle Session Manager ist eine Erweiterung für deinenBrowser, die deine Moodle-Sitzung automatisch speichert und wiederherstellt, sodass du dich nicht ständig neu anmelden musst.
+Moodle Session Manager ist eine Safari-Erweiterung, die deine Moodle-Sitzung automatisch speichert und wiederherstellt, sodass du dich nicht ständig neu anmelden musst.
 
 - Spare Zeit – Kein ständiges Einloggen mehr.
 - Auto-Speicherung & Wiederherstellung – Moodle-Session automatisch verwalten.
@@ -41,16 +40,19 @@ Moodle Session Manager ist eine Erweiterung für deinenBrowser, die deine Moodle
 
 Bleib eingeloggt und konzentriere dich auf das Wesentliche – dein Studium!
 
-
 ### Neues in dieser Version (4000 Zeichen)
+
 > Beschreiben Sie die Neuheiten in dieser Version Ihrer App, beispielsweise neue Features, Verbesserungen und Fehlerbehebungen.
 
 **En:**
-...
+
+- Added support for dark mode.
+- The app now automatically adapts to your system theme for a seamless user experience.
 
 **De:**
-...
 
+- Unterstützung für den Dunkelmodus hinzugefügt.
+- Die App passt sich jetzt automatisch dem Systemthema an, um ein nahtloses Benutzererlebnis zu gewährleisten.
 
 ### Schlüsselwörter (99 Zeichen)
 
@@ -62,18 +64,17 @@ Moodle, session manager, auto login, education, e-learning, university
 **De:**
 Moodle, Sitzungsmanager, automatisches Login, Bildung, E-Learning, Universität
 
-
 ### Support-URL
 
 > Eine URL mit Support-Informationen zu Ihrer App. Diese URL wird im App Store eingeblendet.
 
-https://github.com/SamKry/Moodle-Session-Manager
+<https://github.com/SamKry/Moodle-Session-Manager>
 
 ### Marketing URL (optional)
 
 > Eine URL, die auf Marketinginformationen zu Ihrer App verweist. Diese URL wird im App Store eingeblendet.
 
-https://github.com/SamKry/Moodle-Session-Manager
+<https://github.com/SamKry/Moodle-Session-Manager>
 
 ### Copyright
 
@@ -92,7 +93,6 @@ https://github.com/SamKry/Moodle-Session-Manager
 > Geben Sie die von Ihrer App unterstützten geografischen Regionen an. Die Datei muss das GeoJSON-Dateiformat aufweisen und darf nur über ein MultiPolygon-Element verfügen. [Weitere Infos](https://developer.apple.com/help/app-store-connect/reference/platform-version-information)
 
 na
-
 
 ## App-Informationen
 
