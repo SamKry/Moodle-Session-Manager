@@ -1,0 +1,18 @@
+:root {
+    --background-color: #ffffff;
+    --text-color: #2d2d2d;
+    --border-color: #2d2d2d;
+    --button-bg: #ffffff;
+    --button-hover: #dddddd;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #2d2d2d;
+      --text-color: #ffffff;
+      --border-color: #a7a6a6;
+      --button-bg: #2d2d2d;
+      --button-hover: #222222;
+    }
+  }
+  

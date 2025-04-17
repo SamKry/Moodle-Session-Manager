@@ -7,6 +7,8 @@ body {
     padding: 15px;
     font-family: system-ui, sans-serif;
     text-align: center;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 .title {
@@ -22,14 +24,15 @@ body {
     padding: 8px;
     margin: 8px auto;
     font-size: 20px;
-    border: 1px solid black;
+    border: 1px solid var(--border-color);
     border-radius: 50px;
-    background: white;
+    background: var(--button-bg);
+    color: var(--text-color);
     cursor: pointer;
 }
 
 .outline-button:hover {
-    background: rgba(0, 0, 0, 0.1);
+    background: var(--button-hover);
 }
 
 .checkbox-container {
